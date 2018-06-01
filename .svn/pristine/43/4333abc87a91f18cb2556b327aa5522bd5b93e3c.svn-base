@@ -1,0 +1,38 @@
+package com.utils;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.pojo.Person;
+
+public class PageUtil {
+	public static final int PAGE_COUNT=10;
+     public static List<Person> getCurrentPageList(int curPage,List<Person> persons){
+    	 int startIndex=(curPage-1)*PAGE_COUNT;
+    	 int endIndex=(curPage)*PAGE_COUNT-1;
+    	 List<Person> list=new ArrayList<Person>();
+    	 for (int i = startIndex; i <= endIndex; i++) {
+    		 if (persons!=null) {
+    			 list.add(persons.get(i));
+			}
+		}
+    	return list;
+    	 
+     }
+     public static void main(String[] args) {
+		/*int[] a={1,2,3,4};
+		int[][] b={{1,2,3},{4,5,6},{7,8,9}};
+		System.out.println(JSONArray.fromObject(b).toString());*/
+   /* 	 PageUtil pageUtile=new PageUtil();
+    	 for (int i = 0; i < 100; i++) {
+    	  double randomValue=Math.random()*1000;
+    	  double randomValue1=Math.random()*1000;
+		UserInfo user=new UserInfo((int)randomValue,1,new Date(System.currentTimeMillis()));
+		UserInfo user1=new UserInfo((int)randomValue1,2,new Date(System.currentTimeMillis()));
+		pageUtile.userInfoDao.addUserInfo(user);
+		pageUtile.userInfoDao.addUserInfo(user1);
+	}*/
+      System.out.println(Integer.MAX_VALUE);
+     }
+     
+}

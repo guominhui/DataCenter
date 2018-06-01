@@ -1,0 +1,27 @@
+package com.dictionary;
+
+public enum ErrorDictionary {
+	
+	
+	
+	not_your_pionner(-10001),
+	you_are_not_recommender(-10002);
+	
+	
+	
+	private int value;
+
+	private ErrorDictionary(int value) {
+		this.value = value;
+	}
+
+	public int getValue() {
+		return value;
+	}
+
+	public void setValue(int value) {
+		this.value = value;
+	}
+
+
+}
