@@ -1,0 +1,33 @@
+t_manager      管理员账户列表
+
+t_mainproxy    总代列表
+
+t_proxy        代理管理列表
+
+t_proxy_del    删除代理列表（留存）
+
+t_opereate_rec  后台重要操作记录存留
+
+t_cardrecord    所有的售卡记录列表
+
+t_distribution  三级分销列表
+
+t_exchang_bonus 积分兑换记录
+
+t_report        玩家反馈列表
+
+
+
+t_created_room_rec  多开房间记录列表
+
+t_teahouse      茶楼信息列表
+
+t_teahouse_player  茶楼玩家列表
+
+t_teahouse_operating_state   茶楼经营状态列表
+
+user_info       茶楼玩家列表
+
+game_record     游戏记录列表
+
+
